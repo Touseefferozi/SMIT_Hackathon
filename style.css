@@ -1,0 +1,215 @@
+/* Resetting default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/* Header Section */
+/* Logo styles */
+.logo {
+    max-width: 150px;
+    height: auto;
+    margin-top: -16px;
+    /* margin-left: 2pc; */
+
+}
+
+/* Navigation styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #343a40;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: chartreuse;
+}
+
+/* Button styles */
+.btn-outline-dark {
+    border-color: #343a40;
+    color: #343a40;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Toggle button styles */
+.navbar-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Navbar collapse */
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar-collapse {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+    }
+}
+
+/* Main Section */
+.heading {
+    padding-top: 50px;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.heading p {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* Marquee Section */
+marquee img {
+    max-width: 100px;
+    margin: 0 15px;
+}
+
+/* Services Section */
+.bg-warning {
+    background-color: chartreuse !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+/* Card Section */
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Accordion Section */
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.card-header button {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Form Section */
+.form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+.form-check-label {
+    margin-left: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer img {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* close  */
+
+
+    /* .selet{
+
+        background-color: lightgray;
+        width: 90%;
+        height: 30pc;
+        margin-left: 4pc;
+        border-radius: 22px;
+        padding: 7px 9px 9px 41px;
+        margin-bottom: 3pc;
+    } */
+
+
+.about-img img {
+    height: 18pc;
+    width: 81%;
+    margin-left: 27px;
+}
+
+.fotter{}
